@@ -3,6 +3,7 @@
 Toolk
 ============
 ![Version](https://img.shields.io/badge/Version-0.0.0-green.svg?style=flat)
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 `Toolk` is a toolkit for iOS to automate tedious tasks like generating boilerplate for Swift projects in Xcode.
 
