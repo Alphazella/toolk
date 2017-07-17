@@ -35,7 +35,7 @@ class RunTests(Command):
 setup(
     name = 'toolk',
     version = __version__,
-    description = '🛠️ CLI toolkit for managing Swift projects in Xcode',
+    description = 'CLI toolkit for managing Swift projects in Xcode',
     long_description = long_description,
     url = 'https://github.com/Alphazella/toolk',
     author = 'Heinrich Tremblay',
@@ -44,7 +44,7 @@ setup(
     classifiers = [
         'Intended Audience :: Developers',
         'Topic :: Utilities',
-        'License :: MIT License',
+        'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2',

@@ -28,12 +28,11 @@ Lastly, if you'd like to cut a new release of this CLI tool, and publish it to
 the Python Package Index (`PyPI <https://pypi.python.org/pypi>`_), you can do so
 by running::
 
-    $ python setup.py sdist bdist_wheel
-    $ twine upload dist/*
+    $ python3 setup.py sdist
 
 This will build both a source tarball of your CLI tool, as well as a newer wheel
 build (*and this will, by default, run on all platforms*).
 
-The ``twine upload`` command (which requires you to install the `twine
+The ``twine upload dist/*`` command (which requires you to install the `twine
 <https://pypi.python.org/pypi/twine>`_ tool) will then securely upload your
 new package to PyPI so everyone in the world can use it!
