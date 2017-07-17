@@ -6,7 +6,7 @@
 |    |  \___/  |     | | (_) | (_) | |   <
 |____|_________|     |_|\___/ \___/|_|_|\_\
 
-============================================
+==============================================
 
 Usage:
   toolk hello
@@ -34,7 +34,6 @@ def main():
     """Main CLI entrypoint."""
     import toolk.commands
     options = docopt(__doc__, version=VERSION)
-
     # Here we'll try to dynamically match the command the user is trying to run
     # with a pre-defined command class we've already created.
     for (k, v) in options.items():

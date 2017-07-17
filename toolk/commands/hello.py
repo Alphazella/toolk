@@ -5,10 +5,12 @@
 from json import dumps
 from .base import Base
 
+from .header import headerString
+
 
 class Hello(Base):
     """Say hello, world!"""
 
     def run(self):
-        print('Hello, world!')
-        print('You supplied the following options:', dumps(self.options, indent=2, sort_keys=True))
+        print(headerString)
+        print('Salut Julien!')
