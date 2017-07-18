@@ -30,7 +30,7 @@ class Generate(Base):
         print(headerString)
 
         # Generate a ViewController
-        if self.options["<blueprint>"] == "viewController" or self.options["<blueprint>"] == "vc":
+        if self.options["<blueprint>"] == "viewcontroller" or self.options["<blueprint>"] == "vc":
 
             # Check if we are at the right path
             self.check_path()
@@ -62,7 +62,7 @@ class Generate(Base):
             time.sleep(0.2)
 
             # Load the template
-            template = vc_template
+            template = vc_template.replace("<name>", name.capitalize())
 
             # check if the file already exists
             if "{}ViewController.swift".format(name.capitalize()) in project:
