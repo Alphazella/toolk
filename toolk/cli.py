@@ -17,6 +17,7 @@ Options:
   --version                         Show version.
 Examples:
   toolk generate viewcontroller foo
+  toolk generate vc foo
 Help:
   For help using this tool, please open an issue on the Github repository:
   https://github.com/Alphazella/toolk

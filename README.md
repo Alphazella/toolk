@@ -2,7 +2,7 @@
 
 Toolk
 ============
-![Version](https://img.shields.io/badge/Version-0.0.8-green.svg?style=flat)
+![Version](https://img.shields.io/badge/Version-0.0.9-green.svg?style=flat)
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 `Toolk` is a toolkit for iOS to automate tedious tasks like generating boilerplate for Swift projects in Xcode.
@@ -16,17 +16,17 @@ pip3 install toolk
 
 ### Generating Components
 
-You can use the `toolk generate` (or just `toolk g`) command to generate a Swift/iOS components:
+You can use the `toolk generate` command to generate a Swift/iOS components:
 
 ```bash
 toolk generate viewcontroller my-new-component
-toolk g vc my-new-component # using the alias
+toolk generate vc my-new-component # using the alias
 ```
 You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
 ---       | ---
-[ViewController](https://github.com/Alphazella/toolk) | `toolk g vc my-new-component`
+[ViewController](https://github.com/Alphazella/toolk) | `toolk generate vc my-new-component`
 
 
 ## Tests and release
