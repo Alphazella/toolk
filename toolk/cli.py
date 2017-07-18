@@ -4,19 +4,19 @@
  /__\_______/__\     | | ___   ___ | | | __
 |    |         |     | |/ _ \ / _ \| | |/ /
 |    |  \___/  |     | | (_) | (_) | |   <
-|____|_________|     |_|\___/ \___/|_|_|\_\
+|____|_________|     |_|\___/ \___/|_|_|\_\.
 
 ==============================================
 
 Usage:
-  toolk hello
+  toolk generate <blueprint> <name>
   toolk -h | --help
   toolk --version
 Options:
   -h --help                         Show this screen.
   --version                         Show version.
 Examples:
-  toolk hello
+  toolk generate viewcontroller foo
 Help:
   For help using this tool, please open an issue on the Github repository:
   https://github.com/Alphazella/toolk
