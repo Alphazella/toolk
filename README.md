@@ -7,6 +7,9 @@ Toolk
 
 `Toolk` is a toolkit for iOS to automate tedious tasks like generating boilerplate for Swift projects in Xcode.
 
+## Demo
+![](github/demo.gif)
+
 ## Installation
 ```bash
 pip3 install toolk
